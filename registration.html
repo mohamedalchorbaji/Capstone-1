@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Registration</title>
+	<!-- Bootstrap CDN links for styling -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md  bg-light">
+		<a class="navbar-brand" href="index.html">
+			<img src="/MoeProject/IMG/images.png" width="40" height="40" class="d-inline-block align-top" alt="Logo">
+			SurfMo
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="aboutUs.html">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="products.html">Products</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="logIn.html">Login</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="checkout"><img src="/MoeProject/IMG/shopping-cart-logo-icon-shopping-cart.jpg" width="20" height="20" class="d-inline-block align-top" alt="Logo"></a>
+				</li>
+			</ul>
+	    </div>
+    </nav>
+	<div class="container mt-5">
+		<h1 class="mb-4">User Registration Form</h1>
+		<form action="#" method="post">
+			<div class="form-group">
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" class="form-control" required minlength="3" maxlength="20">
+			</div>
+			
+			<div class="form-group">
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" class="form-control" required minlength="8" maxlength="20">
+			</div>
+			
+			<div class="form-group">
+				<label for="confirm_password">Confirm Password:</label>
+				<input type="password" id="confirm_password" name="confirm_password" class="form-control" required minlength="8" maxlength="20">
+			</div>
+			
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" class="form-control" required>
+			</div>
+			
+			<div class="form-group">
+				<label>How did you hear about us?</label><br>
+				<div class="form-check form-check-inline">
+					<input type="radio" id="radio1" name="source" value="online" class="form-check-input" required>
+					<label for="radio1" class="form-check-label">Online</label>
+				</div>
+				
+				<div class="form-check form-check-inline">
+					<input type="radio" id="radio2" name="source" value="word_of_mouth" class="form-check-input">
+					<label for="radio2" class="form-check-label">Word of mouth</label>
+				</div>
+				
+				<div class="form-check form-check-inline">
+					<input type="radio" id="radio3" name="source" value="print" class="form-check-input">
+					<label for="radio3" class="form-check-label">Print</label>
+				</div>
+			</div>
+			
+			<button type="submit" class="btn btn-primary">Register</button>
+		</form>
+	</div>
+</body>
+</html>

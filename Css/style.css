@@ -1,0 +1,73 @@
+.bg-light{
+    background-color: rgb(128, 128, 86) !important;
+}
+
+body.main{
+    background-color: black;
+}
+
+body.aboutus{
+    background-color: aquamarine;
+}
+
+body.login-form{
+    background-color: rgb(55, 55, 43);
+}
+
+form.log-in{
+    background-color: rgb(198, 198, 110);
+  
+}
+
+#form2Example1{
+    background-color: gray;
+}
+
+#form-container{
+    border: 1px black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#login-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0d6efd;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1PX solid black;
+    background: #ffffff;
+    margin: 20%;
+    margin-top: 10%;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.navbar{
+    margin: 100+vw;;
+}
