@@ -71,3 +71,57 @@ form.log-in{
 .navbar{
     margin: 100+vw;;
 }
+.body{
+    background-color: aqua;
+    color: wheat;
+}
+footer{
+    margin-top: 10%;
+}
+.par1{
+    border: 60px;
+    border-radius: 3%;
+    margin-top: 4%;
+    width: 40%;
+    border-color: black;
+    text-align: center;
+    font-size: medium;
+}
+.par2{
+    margin-left: auto;
+    border: 60px;
+    border-radius: 3%;
+    margin-top: 1%;
+    width: 40%;
+    border-color: black;
+    text-align: center;
+    font-size: medium ;
+}
+.welcome{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: xx-large ;
+}  
+
+
+
+#gallery-text-right{
+    /* Added */
+    width: 50%;
+}
+#gallery-text-left{
+/* Added */
+width: 50%;
+}
+
+#gallery-paragraph-1{
+    border-left:8px solid #3CB371;
+    border-radius:4px;
+    padding-left:15px;
+}
+#gallery-paragraph-2{
+    border-left:8px solid #3CB371;
+    border-radius:4px;
+    padding-left:15px;
+    word-wrap: break-word;
+}

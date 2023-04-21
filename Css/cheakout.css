@@ -1,0 +1,27 @@
+.container{
+    background-color: white;
+    max-width: 50%;
+    max-height: fit-content;
+    margin-top: 50;
+    float: right;
+    position: relative;
+}
+#products-table{
+    left: 3%;
+    float: left;
+    position: fixed;
+}
+/* .bay button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--textColor);
+    color: var(--sectionBack);
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+.bay button:hover{
+    transform: scale(1.1);
+} */
