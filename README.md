@@ -1,6 +1,6 @@
 # Capstone-1
-my project is about Surf shop that sells surf boards,
-there is three main page about us page, home, product page, login page and checkout page
+      my project is about Surf shop that sells surf boards,
+      there is five page about us page, home, product page, login page and checkout page
 
 ## these are the images and videos 
 
